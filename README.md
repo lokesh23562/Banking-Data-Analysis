@@ -1,51 +1,64 @@
-🏦 Banking Management System 💰
-📘 Project Overview
+## 🏦 Banking Data Analysis Dashboard 📊
 
-The Banking Management System is a Java-based project designed to simulate real-world banking operations efficiently and securely. It allows users to create accounts, deposit and withdraw money, transfer funds between accounts, and check balance details — all with a simple and user-friendly interface. 🖥️
-This project demonstrates how Object-Oriented Programming (OOP) principles like Encapsulation, Inheritance, and Polymorphism can be applied effectively in software development. 🧩
+This project focuses on analyzing and visualizing banking data using **Python, Pandas, Seaborn, and Plotly**.  
+The goal is to uncover insights into customer demographics, regional patterns, account balances, and transaction trends.  
 
-⚙️ Features
+### ✨ **Project Highlights**
+- 📂 Data Cleaning and Preprocessing using **Pandas**
+- 📊 Exploratory Data Analysis (EDA) using **Seaborn**
+- 🌍 Interactive Visualizations using **Plotly**
+- 💡 Key insights on **customer demographics, account types, and financial trends**
+- ⚡ Professional **interactive dashboard** integration for real-time data exploration
 
-✨ Create new user accounts
-💵 Deposit and withdraw money
-💳 Fund transfer between accounts
-📄 Display account details and transaction history
-🔐 Secure login and data management
-🧮 Simple and efficient interface
+---
 
-🧰 Technologies Used
+### 🧠 **Dashboard Overview**
+Below are key visual insights from the analysis:
 
-💻 Programming Language: Java
+| Visualization | Description |
+|----------------|--------------|
+| 👥 Gender Distribution | Shows ratio of male and female customers |
+| 🌍 Region-wise Customers | Compares customer distribution across regions |
+| 💳 Account Type Balances | Displays average balance per account type |
+| 👤💵 Age vs Balance | Visualizes how account balance changes with age |
+| 🔥 Correlation Heatmap | Highlights relationships between numerical features |
 
-🧱 Database: MySQL
+---
 
-⚙️ Tools: Eclipse / IntelliJ IDEA
+### 🚀 **Interactive Dashboard**
+Run the full dashboard in **Google Colab**:
+👉 [Open in Google Colab](https://colab.research.google.com/)
 
-🔗 Version Control: Git & GitHub
+OR view screenshots below:
 
-🧑‍💻 How to Run
+<p align="center">
+  <img src="images/dashboard1.png" width="45%" alt="Gender Distribution Chart"/>
+  <img src="images/dashboard2.png" width="45%" alt="Region-wise Customers Chart"/>
+</p>
 
-1️⃣ Clone the repository
-2️⃣ Open the project in your Java IDE
-3️⃣ Configure MySQL connection settings
-4️⃣ Compile and run the program
-5️⃣ Explore features like account creation, deposit, and transfer
+<p align="center">
+  <img src="images/dashboard3.png" width="90%" alt="Account Type and Age-Balance Chart"/>
+</p>
 
-🧾 Project Objectives
+---
 
-✅ Learn and implement Java OOP concepts
-✅ Understand JDBC connectivity with MySQL
-✅ Manage user data with CRUD operations
-✅ Gain real-world project experience
+### 🧰 **Tech Stack**
+- 🐍 Python  
+- 📊 Pandas, NumPy, Seaborn, Matplotlib  
+- ⚡ Plotly (for interactive dashboard)
+- 🧠 Jupyter Notebook / Google Colab  
+- 💾 GitHub (for version control and sharing)
 
-📸 Preview (Optional)
+---
 
-If you have screenshots, upload them here to make the README more attractive 👇
-/screenshots/homepage.png
+### 🏁 **How to Run**
+```bash
+# Clone this repository
+git clone https://github.com/<your-username>/<your-repo-name>.git
 
-👨‍💻 Developer: B.Lokesh
+# Open the project folder
+cd <your-repo-name>
 
-
-📬 Contact:lokeshbainaboyana@gmail.com
-
-📧 For queries or contributions, feel free to reach out via GitHub Issues section.
+# Open in Jupyter Notebook or Google Colab
+# Run the cells in 'Banking_Data_Analysis.ipynb'
+contact:-lokeshbainaboyana@gmail.com
